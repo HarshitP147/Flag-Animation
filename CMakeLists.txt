@@ -16,7 +16,7 @@ include_directories(
 )
 
 add_executable(main
-    main.cpp
+    src/main.cpp
 )
 target_link_libraries(main
     ${OPENGL_LIBRARY}
